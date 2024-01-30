@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.textname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+}
+
+.name{
+    display: flex;
+    background-color: #B1E1F8;
+    height: 15vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.wr{
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#sppulogo{
+    height: auto;
+    width:20%;
+    object-fit: cover;
+}
+#collegelogo{
+    width :20%;
+}
+
+#ll,
+#lm {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* .container{
+    background-color: brown;
+    border: 1px black solid;
+} */
+
+
+.card{
+    position: absolute;
+    z-index: 1;
+    border: 1px black solid;
+    margin :00px 1px 1px 1px;
+    padding: 2rem;
+    transform: translate(-150%,10px);
+    left: 0;
+    top: 0;
+
+}
+
+#bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+
+
+
+
+.foot1{
+    height: 100%;
+}
+
+
+
+
