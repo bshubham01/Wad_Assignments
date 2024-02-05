@@ -12,9 +12,12 @@
 }
 
 
+
 .stick{
+    display: flex;
     position: -webkit-sticky;
     position: sticky;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -29,15 +32,33 @@
 }
 
 .wr{
+    display: flex;
     overflow-x: hidden;
     height: 100%;
+    flex-direction: column;
 }
 
 #sppulogo{
+    display: flex;
     height: auto;
     width:20%;
     object-fit: cover;
 }
+
+
+#collegelogo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.textname{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 #collegelogo{
     width :20%;
 }
@@ -51,16 +72,12 @@
 .wrapper{
     display: flex;
     position: relative;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
-
 }
 
-/* .container{
-    background-color: brown;
-    border: 1px black solid;
-} */
+
 
 
 .card{
@@ -68,10 +85,10 @@
     z-index: 1;
     border: 1px black solid;
     margin :00px 1px 1px 1px;
-    padding: 2rem;
-    transform: translate(-150%,10px);
-    left: 0;
+    padding: 1rem 1rem 1rem;
+    left: 10vw;
     top: 0;
+    align-items: flex-start;
 
 }
 

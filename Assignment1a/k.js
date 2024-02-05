@@ -1,3 +1,7 @@
+function redirectToRegistration() {
+    window.location.href = 'registration.html';
+}
+
 let ele = document.querySelector(".card");
 let bgImage = document.getElementById("bg");
 console.log(ele);
@@ -20,5 +24,4 @@ function hideOnScroll() {
 
     lastScrollTop = st;
 }
-
 window.addEventListener("scroll", hideOnScroll);
